@@ -119,8 +119,10 @@ public class Main : MonoBehaviour
                     llmStreamer.AddPersonaVar("location", location);
                     llmStreamer.AddPersonaVar("clothing", clothing);
                     llmStreamer.AddPersonaVar("conversationpartner", conversationpartner);
-                    llmStreamer.SetPersonaName("Dirk Jan Buter");
-                    ttsStreamer.SetVoice("Dirk Jan");
+                      llmStreamer.SetPersonaName("Dirk Jan Buter");
+                    //llmStreamer.SetPersonaName("Marlon");
+                     ttsStreamer.SetVoice("Marlon");
+                   // ttsStreamer.SetVoice("Dirk Jan");
 
                     llmStreamer.RequestStream(
                         text,
