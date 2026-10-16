@@ -67,5 +67,9 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
+<<<<<<< HEAD
     "dotnet.defaultSolution": "persona-cloning2.slnx"
+=======
+    "dotnet.defaultSolution": "persona-cloning.slnx"
+>>>>>>> 538af02eae87bcd7ab98f57501e00b2f7a821ebd
 }
